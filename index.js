@@ -306,7 +306,7 @@ var server = message.guild;
         }
 }
 if(command === "github") {
-message.channel.send("")
+message.channel.send("https://github.com/davidfreque09/darkbot")
 }
 });
 
