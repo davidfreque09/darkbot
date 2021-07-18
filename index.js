@@ -23,7 +23,7 @@ client.on('ready', () => {
 }
   presence();
   setInterval(function(){
-    var status = ["⌨ dd!ayuda ⌨", "✨Creado por: DARK DEIVID", `📋Estoy viendo a  ${client.users.cache.size} usuarios📋`];
+    var status = ["⌨ !ayuda ⌨", "✨Creado por: DARK DEIVID", `📋Estoy viendo a  ${client.users.cache.size} usuarios📋`];
   var randomStatus = Math.floor(Math.random()*(status.length));
   client.user.setPresence({
        status: "dnd",
